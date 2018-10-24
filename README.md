@@ -21,7 +21,7 @@ npm i
 
 ## Authors
 
-* **Ruslan Trovin 2018** [QuensLashes](https://trovin.github.io/trovin/wKid/)
+* **Ruslan Trovin 2018** [START_TEMP](https://trovin.github.io/trovin/wKid/)
 
 ## License
 
