@@ -1,0 +1,41 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "start libs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trovin/web.git"
+  },
+  "author": "web",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "scss-concat": "^0.3.7",
+    "bootstrap": "4.0.0-alpha.6",
+    "gulp-flatten": "^0.4.0",
+    "jquery": "^3.2.1",
+    "slick-carousel": "^1.8.1",
+    "tether": "^1.4.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-inject": "^4.3.2",
+    "gulp-install": "^1.1.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-watch": "^5.0.1",
+    "jquery": "^3.3.1",
+    "rimraf": "^2.6.2"
+  }
+}
