@@ -68,15 +68,18 @@ gulp.task('js:build', function () {
     gulp.src([
         './node_modules/jquery/dist/jquery.min.js',
         './src/js/main.js'])
+        .pipe(sourcemaps.init())
         .pipe(concat('app.min.js'))
         .pipe(uglify().on('error', function (e) {
             console.log(e);
         }))
+        .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest(path.build.js));   
 });
 
 gulp.task('style:build', function () {
     gulp.src(path.src.style)
+        .pipe(sourcemaps.init())
         //build scss
         .pipe(sass({
             errLogToConsole: true
@@ -88,6 +91,7 @@ gulp.task('style:build', function () {
         })) 
         .pipe(concat('style.min.css'))
         .pipe(cssmin())     
+        .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest(path.build.css))   
         .pipe(reload({stream: true}));     
 });
