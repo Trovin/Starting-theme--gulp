@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Trovin/web.git"
+    "url": ""
   },
-  "author": "web",
+  "author": "ruslan_trovin",
   "license": "ISC",
   "dependencies": {
     "gulp": "^3.9.1",
