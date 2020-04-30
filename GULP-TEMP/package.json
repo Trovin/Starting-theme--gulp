@@ -17,7 +17,7 @@
     "scss-concat": "^0.3.7",
     "bootstrap": "4.0.0-alpha.6",
     "gulp-flatten": "^0.4.0",
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.0",
     "slick-carousel": "^1.8.1",
     "tether": "^1.4.3"
   },
@@ -35,7 +35,7 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^3.0.1",
     "gulp-watch": "^5.0.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "rimraf": "^2.6.2"
   }
 }
