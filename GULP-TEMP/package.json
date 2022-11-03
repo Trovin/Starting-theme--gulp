@@ -13,7 +13,7 @@
   "author": "ruslan_trovin",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "scss-concat": "^0.3.7",
     "bootstrap": "4.0.0-alpha.6",
     "gulp-flatten": "^0.4.0",
